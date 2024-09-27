@@ -1,0 +1,47 @@
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    color: #555cfc;
+    margin-bottom:20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    color: #555cfc;
+    margin-bottom:20px;
+    text-align: left;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom:20px;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    word-spacing: 0.05em;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+
+
+
