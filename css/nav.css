@@ -34,3 +34,68 @@ a:hover {
     background-color: #55ff6c; /* Cor do hover */
     color: #282828; /* Cor do texto no hover */
 }
+
+@media (max-width: 1200px) {
+    nav {
+      padding: 15px;
+      margin-right: 20px;
+    }
+  
+    ul {
+      justify-content: flex-end;
+    }
+  
+    li {
+      margin-right: 15px;
+    }
+  
+    a {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      padding: 10px;
+      margin-right: 10px;
+    }
+  
+    ul {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    a {
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav {
+      padding: 8px;
+      margin-right: 5px;
+    }
+  
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    li {
+      margin-right: 0;
+      margin-bottom: 8px;
+    }
+  
+    a {
+      padding: 6px 8px;
+      font-size: 12px;
+    }
+  }
+  

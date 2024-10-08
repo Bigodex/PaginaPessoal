@@ -95,3 +95,40 @@ button {
     transition: 0.7s;
   }
   
+  @media (max-width: 1200px) {
+    .container-primary {
+      margin: 200px 50px 200px 50px;
+    }
+    
+    button {
+      width: 180px;
+      height: 40px;
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container-primary {
+      margin: 150px 20px 150px 20px;
+      flex-direction: column;
+    }
+  
+    button {
+      width: 160px;
+      height: 36px;
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container-primary {
+      margin: 100px 10px 100px 10px;
+    }
+  
+    button {
+      width: 140px;
+      height: 32px;
+      font-size: 18px;
+    }
+  }
+  

@@ -205,3 +205,79 @@ img .layout-container {
     transform: translateX(-50%) rotate(45deg);
   }
   
+  /* Responsividade para telas menores que 768px (tablets e smartphones) */
+@media (max-width: 768px) {
+  .layout-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-left {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  .container-inside {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .container-inside img {
+    width: 150px; /* Reduzindo a imagem em telas menores */
+    height: 150px;
+    margin: 0 0 15px 0;
+  }
+
+  .info h2 {
+    font-size: 20px;
+  }
+
+  .info p {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .skill-box .title {
+    font-size: 12px;
+  }
+
+  .skill-box .skill-bar {
+    height: 6px;
+  }
+}
+
+/* Responsividade para telas menores que 480px (smartphones) */
+@media (max-width: 480px) {
+  .container-inside img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .info h2 {
+    font-size: 18px;
+  }
+
+  .info p {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .skill-box .title {
+    font-size: 11px;
+  }
+
+  .skill-box .skill-bar {
+    height: 5px;
+  }
+}
