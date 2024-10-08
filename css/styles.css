@@ -15,24 +15,28 @@ h2 {
     font-size: 24px;
     color: #ccc;
     margin-bottom:20px;
+    margin-left: 25px;
     text-align: left;
     font-weight: 500;
-    font-family: '', sans-serif;
+    font-family: 'Cambria', sans-serif;
+
 }
 
 h3 {
     font-size: 24px;
-    color: #ffffff;
+    color: #ccc;
     margin-bottom:20px;
-    text-align: center;
+    text-align: left;
     font-weight: 500;
     font-family: 'Cambria', sans-serif;
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     margin-bottom:20px;
+    margin-right: 25px;
+    margin-left: 25px;
     text-align: justify;
     line-height: 1.5;
     letter-spacing: 0.05em;
@@ -50,16 +54,9 @@ hr {
     border: none;
     height: 2px;
     background-color: #55ff6c;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     width: 95%;
-}
-
-.whitebar hr {
-    background-color: #ffffff;
-    width: 95%;
-    height: 2px;
-    margin-bottom: 20px;
-    display: block;
 }
 
 img {
